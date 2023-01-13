@@ -1,1 +1,1 @@
-# kahoot-points
+# Kahoot Points
