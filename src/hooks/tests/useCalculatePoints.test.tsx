@@ -7,7 +7,7 @@ import {
   itemsBasicInput,
   itemsWithNoBonus,
   itemsWithAllBonus,
-} from '../../Mock/mock';
+} from '../../mock/mock';
 
 describe('useCalculatePoints', () => {
   it('should exist', () => {

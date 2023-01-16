@@ -1,0 +1,72 @@
+.stats-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background: white;
+}
+
+.stats-type, .stats-quantity, .stats-score {
+    margin: 20px;
+    font-weight: 500;
+}
+
+.bonus-points, .total-points {
+    font-weight: bold;
+    color: black;
+    margin: 20px;
+}
+
+.stats-header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    background-color: #864CBF;
+    color: white;
+}
+
+.stats-wrapper {
+    height: 55vh;
+    background: #F2F2F2;
+    display: flow-root;
+}
+
+.icon-lit, .icon-trophy {
+    height: 30px;
+    width: 30px;
+}
+
+.bonus-title, .points-title {
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+
+.bonus, .points{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.new-game {
+    margin: 10px;
+    height: 35px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    background: #46178F;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    box-shadow: rgb(0 0 0 / 15%) 0px -0.5rem 0px 0px inset;
+    border-radius: 5px;
+}

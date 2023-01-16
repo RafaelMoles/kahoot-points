@@ -11,11 +11,9 @@ export const useCollectItems = () => {
     switch (itemType) {
       case ItemType.A:
         setNumItemsA((prevNumItemsA) => prevNumItemsA + 1);
-        console.log(numItemsA);
         break;
       case ItemType.B:
         setNumItemsB((prevNumItemsB) => prevNumItemsB + 1);
-        console.log(numItemsB);
         break;
       case ItemType.C:
         setNumItemsC((prevNumItemsC) => prevNumItemsC + 1);
