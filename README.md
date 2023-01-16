@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Implementation of a browser based game points system that calculates the total points awarded to a player for a number of items they have collected in a game. 
+This is an implementation of a browser-based game points system that calculates the total points awarded to a player for a number of items they have collected in a game.
 
-Different Items: A, B, C, D. With different points and bonus.
+Different Items: A, B, C, D. With different points and bonuses.
 
 Item --> Unit Points --> Bonus
 
@@ -21,32 +21,39 @@ The game accepts items in any order. Example: if we collect a B, an A, and anoth
 
 ![image](https://user-images.githubusercontent.com/39062528/212623158-b21da9fb-1ef5-4473-89e4-c4ef126b156d.png)
 
-## Planification
-Deadline:  Sunday
-Expected time 12h, distributed in two days of 6h per day. It’s expected to have one extra day to work in the project, therefore 18h.
+## Setup and Start
+
+1. Clone the repository with ```git clone https://github.com/RafaelMoles/kahoot-points.git```
+2. Run ```cd kahoot-points``` to navigate into the project's directory.
+3. Run ```yarn``` to install the project's dependencies.
+4. Run ```yarn dev``` to start the development server.
+5. Open ```http://localhost:5173``` to view the app in the browser.
+
+Note: Make sure that you have installed ```yarn``` and ```vite``` as global dependencies in your machine.
 
 ## Requirements
 
+Functional:
+
 - Shows all the items to collect
 - Shows all the items collected and score
-- Computes the total scores of bonus
+- Computes the total extra points from bonus
 - Computes the total score of the player
 - Clear current score and start again
-
-Maybe:
-
-- Keyboard input to select the item to collect it.
-- Add sounds for actions.
 
 Non-functional:
 
 - Should fit iPad Screen.
-- Accessibility application.
+- Accessibility.
 
-## Design
+Possible improvements:
 
-Add keyboard letters to select the different numbers in the game.
-Considerations in design:
+- Keyboard input to select the item to collect it.
+- Add sounds for actions.
+
+
+## Design considerations
+
 - Solid contrast: High contrast so users with visual impairments can read easily.
 - Keyboard accessibility: As some users may not be able to use a mouse, the web-app its designed keyboard friendly.
 -  Use of ARIA roles: ARIA roles can help provide additional information about elements on the page, but if they are not used, it can be difficult for users who rely on assistive technologies to understand the purpose of the elements.
