@@ -59,9 +59,34 @@ Possible improvements:
 -  Use of ARIA roles: ARIA roles can help provide additional information about elements on the page, but if they are not used, it can be difficult for users who rely on assistive technologies to understand the purpose of the elements.
 - Add audio captions.
 
-## Implementtion
+## Implementation
+
 React and Typescript.
+
 State management: Micro state management with React Hooks.
+
+## Scripts
+To run the tests, you can use the following scripts:
+
+- ```test```: Runs the tests using the vitest command.
+- ```lint```: Runs the linter using the eslint command.
+- ```lint:fix```: Runs the linter and automatically fixes any issues found.
+- ```format```: Formats the code using the prettier command.
+
+## Dependencies
+
+The package includes the following testing dependencies:
+
+- ```@testing-library/jest-dom```: Provides custom jest matchers for testing the DOM.
+- ```@testing-library/react```: Provides a set of simple and complete React DOM testing utilities.
+- ```@testing-library/react-hooks```: Provides a set of utilities for testing React hooks.
+- ```@vitejs/plugin-react```: Provides a development server for React apps.
+- ```eslint```: Provides a linter for identifying and reporting on patterns in JavaScript.
+- ```eslint-config-prettier```: Turns off all ESLint rules that are unnecessary or might conflict with Prettier.
+- ```eslint-plugin-prettier```: Runs Prettier as an ESLint rule.
+- ```eslint-plugin-react```: ESLint plugin with rules that help validate proper usage of React.
+- ```prettier```: An opinionated code formatter.
+- ```vitest```: A simple test runner for Vite projects.
 
 ## Next Steps
 How the project can be improved:
