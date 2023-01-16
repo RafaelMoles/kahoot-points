@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #46178F;
+    width: 100%;
+    max-width: initial;
+  }
+  
+  .logo {
+    height: 40px;
+    max-height: 40px;
+    max-width: max-content;
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      flex-wrap: wrap;
+    }
+    .logo {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }

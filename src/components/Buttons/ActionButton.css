@@ -1,0 +1,26 @@
+.icon{
+    padding: 40px;
+    height: 30px;
+    width: 30px;
+}
+
+.button-title {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.actionButton {
+    align-items: center;
+    display: flex;
+    color: white;
+    min-height: 10%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 15%) 0px -0.5rem 0px 0px inset;
+}
+
+.actionButton:hover {
+  background-color: darken(#000000, 15%);
+}
