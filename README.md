@@ -21,6 +21,7 @@ The game accepts items in any order. Example: if we collect a B, an A, and anoth
 
 ![image](https://user-images.githubusercontent.com/39062528/212623158-b21da9fb-1ef5-4473-89e4-c4ef126b156d.png)
 
+
 ## Setup and Start
 
 1. Clone the repository with ```git clone https://github.com/RafaelMoles/kahoot-points.git```
