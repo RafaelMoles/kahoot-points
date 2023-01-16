@@ -1,2 +1,12 @@
+yarn-debug.log*
+yarn-error.log*
+
 # Dependency directories
 node_modules/
+
+node_modules
+dist
+dist-ssr
+*.local
+
+.DS_Store
