@@ -7,6 +7,8 @@ import StatsSidebar from '../components/StatsSidebar/StatsSidebar';
 import {useCalculatePoints} from '../hooks/useCalculatePoints';
 import {useCollectItems} from '../hooks/useCollectItems';
 
+import './KahootGame.css';
+
 const KahootGame: React.FC = () => {
   const {collectItems, clearItems, itemsCollected} = useCollectItems();
 
